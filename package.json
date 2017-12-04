@@ -1,0 +1,55 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "react-native-tabbar-view@file:../react-native-tabbar-view",
+        "scope": null,
+        "escapedName": "react-native-tabbar-view",
+        "name": "react-native-tabbar-view",
+        "rawSpec": "file:../react-native-tabbar-view",
+        "spec": "/Users/user/Documents/sourceTree/RN-BBC/src/react-native-tabbar-view",
+        "type": "directory"
+      },
+      "/Users/user/Documents/sourceTree/RN-BBC/src/app-js"
+    ]
+  ],
+  "_from": "../react-native-tabbar-view",
+  "_id": "react-native-tabbar-view@1.0.0",
+  "_inCache": true,
+  "_location": "/react-native-tabbar-view",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "react-native-tabbar-view@file:../react-native-tabbar-view",
+    "scope": null,
+    "escapedName": "react-native-tabbar-view",
+    "name": "react-native-tabbar-view",
+    "rawSpec": "file:../react-native-tabbar-view",
+    "spec": "/Users/user/Documents/sourceTree/RN-BBC/src/react-native-tabbar-view",
+    "type": "directory"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "file:../react-native-tabbar-view",
+  "_shasum": "57ab9fe3eb41b0a8fc738b84b04c3e1ead49d0e9",
+  "_shrinkwrap": null,
+  "_spec": "react-native-tabbar-view@file:../react-native-tabbar-view",
+  "_where": "/Users/user/Documents/sourceTree/RN-BBC/src/app-js",
+  "dependencies": {},
+  "devDependencies": {},
+  "license": "MIT",
+  "main": "TabContainer.js",
+  "maintainers": [
+    {
+      "name": "cwilson",
+      "email": "corey@eastcodes.com"
+    }
+  ],
+  "name": "react-native-tabbar-view",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "react-native": ">=0.47"
+  },
+  "readme": "ERROR: No README data found!",
+  "version": "1.0.0"
+}
