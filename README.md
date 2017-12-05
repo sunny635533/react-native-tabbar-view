@@ -13,10 +13,13 @@ Install
 Make sure that you are in your React Native project directory and run:
 
 ```npm install react-native-tab-navigator --save```
+## Demo
+
+<a href="https://raw.githubusercontent.com/satya164/react-native-tab-view/master/demo/demo.mp4"><img src="https://raw.githubusercontent.com/satya164/react-native-tab-view/master/demo/demo.gif" width="360"></a>
 
 ## Usage
 
-Import TabNavigator as a JavaScript module:
+Import TabBarContainer as a JavaScript module:
 
 ```js
 import TabBarContainer from 'react-native-tabbar-view';
