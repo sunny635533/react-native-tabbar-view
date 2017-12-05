@@ -5,7 +5,7 @@ This component is compatible with React Native 0.16 and newer.
 
 this is copied from https://github.com/happypancake/react-native-tab-navigator. Also it is pure JavaScript.
 
-Note: This is **not** react-native-tabbar-view justs a tabbar view,you can use it with react-navigation.
+Note: This react-native-tabbar-view justs a tabbar view,you can use it with react-navigation.
 
 Install
 -------
