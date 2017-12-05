@@ -15,7 +15,7 @@ Make sure that you are in your React Native project directory and run:
 ```npm install react-native-tab-navigator --save```
 ## Demo
 
-<a href="https://raw.githubusercontent.com/satya164/react-native-tab-view/master/demo/demo.mp4"><img src="https://raw.githubusercontent.com/satya164/react-native-tab-view/master/demo/demo.gif" width="360"></a>
+<a href="https://raw.githubusercontent.com/satya164/react-native-tab-view/master/demo/demo.mp4"><img src="https://github.com/sunny635533/react-native-tabbar-view/blob/master/tabbar-view.png" width="360"></a>
 
 ## Usage
 
