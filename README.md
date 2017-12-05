@@ -1,9 +1,9 @@
-# TabNavigator
-A tab bar that switches between scenes, written in JS for cross-platform support. It works on iOS and Android.
+
+A tab bar that switches tabs, written in JS for cross-platform support. It works on iOS and Android.
 
 This component is compatible with React Native 0.16 and newer.
 
-The look and feel is slightly different than the native navigator but it is better in some ways. Also it is pure JavaScript.
+this is copied from https://github.com/happypancake/react-native-tab-navigator. Also it is pure JavaScript.
 
 Note: This is **not** the same `TabNavigation` component that is used in [ExNavigation](https://github.com/exponentjs/ex-navigation), the API and implementations are slightly different -- react-native-tab-navigator stands on its own and does not depend on any other navigation library.
 
@@ -19,14 +19,14 @@ Make sure that you are in your React Native project directory and run:
 Import TabNavigator as a JavaScript module:
 
 ```js
-import TabNavigator from 'react-native-tab-navigator';
+import TabBarContainer from 'react-native-tabbar-view';
 ```
 
 This is an example of how to use the component and some of the commonly used props that it supports:
 
 ```js
-<TabNavigator>
-  <TabNavigator.Item
+<TabBarContainer>
+  <TabBarContainer.Item
     selected={this.state.selectedTab === 'home'}
     title="Home"
     renderIcon={() => <Image source={...} />}
@@ -34,8 +34,8 @@ This is an example of how to use the component and some of the commonly used pro
     badgeText="1"
     onPress={() => this.setState({ selectedTab: 'home' })}>
     {homeView}
-  </TabNavigator.Item>
-  <TabNavigator.Item
+  </TabBarContainer.Item>
+  <TabBarContainer.Item
     selected={this.state.selectedTab === 'profile'}
     title="Profile"
     renderIcon={() => <Image source={...} />}
@@ -43,8 +43,8 @@ This is an example of how to use the component and some of the commonly used pro
     renderBadge={() => <CustomBadgeView />}
     onPress={() => this.setState({ selectedTab: 'profile' })}>
     {profileView}
-  </TabNavigator.Item>
-</TabNavigator>
+  </TabBarContainer.Item>
+</TabBarContainer>
 ```
 
 See TabNavigatorItem's supported props for more info.
@@ -54,15 +54,15 @@ See TabNavigatorItem's supported props for more info.
 You can hide the tab bar by using styles. For example:
 ```js
 let tabBarHeight = 0;
-<TabNavigator
+<TabBarContainer
   tabBarStyle={{ height: tabBarHeight, overflow: 'hidden' }}
-  sceneStyle={{ paddingBottom: tabBarHeight }}
+  // sceneStyle={{ paddingBottom: tabBarHeight }}
 />
 ```
 
 ### Props
 
-TabNavigator props
+TabBarContainer props
 
 | prop | default | type | description |
 | ---- | ---- | ----| ---- |
@@ -71,7 +71,7 @@ TabNavigator props
 | tabBarShadowStyle | inherited | object (style) | define shadow style for tabBar |
 | hidesTabTouch | false | boolean | disable onPress opacity for Tab |
 
-TabNavigator.Item props
+TabBarContainer.Item props
 
 | prop | default | type | description |
 | ---- | ---- | ----| ---- |
