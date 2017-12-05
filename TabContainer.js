@@ -1,6 +1,6 @@
 'use strict';
 
-import { Set } from 'immutable';
+//import { Set } from 'immutable';
 import React from 'react';
 import PropTypes from 'prop-types';
 import {
