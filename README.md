@@ -5,14 +5,14 @@ This component is compatible with React Native 0.16 and newer.
 
 this is copied from https://github.com/happypancake/react-native-tab-navigator. Also it is pure JavaScript.
 
-Note: This is **not** the same `TabNavigation` component that is used in [ExNavigation](https://github.com/exponentjs/ex-navigation), the API and implementations are slightly different -- react-native-tab-navigator stands on its own and does not depend on any other navigation library.
+Note: This is **not** react-native-tabbar-view justs a tabbar view,you can use it with react-navigation.
 
 Install
 -------
 
 Make sure that you are in your React Native project directory and run:
 
-```npm install react-native-tab-navigator --save```
+```npm install react-native-tabbar-view --save```
 ## Demo
 
 <a href="https://raw.githubusercontent.com/satya164/react-native-tab-view/master/demo/demo.mp4"><img src="https://github.com/sunny635533/react-native-tabbar-view/blob/master/tabbar-view.png" width="360"></a>
